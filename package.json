@@ -9,10 +9,8 @@
 		"server": "hexo server",
 		"publish": "hexo c && hexo d -g"
 	},
-	"husky": {
-		"hooks": {
-			"pre-push": "npm run publish"
-		}
+	"gitHooks": {
+		"pre-push": "npm run publish"
 	},
 	"hexo": {
 		"version": "4.0.0"
